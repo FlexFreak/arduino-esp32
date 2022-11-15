@@ -16,7 +16,7 @@
 // Some boards have too low voltage on this pin (board design bug)
 // Use different pin with 3V and connect with 48
 // and change this setup for the chosen pin (for example 38)
-static const uint8_t LED_BUILTIN = SOC_GPIO_PIN_COUNT+48;
+static const uint8_t LED_BUILTIN = 35;
 #define BUILTIN_LED  LED_BUILTIN // backward compatibility
 #define LED_BUILTIN LED_BUILTIN
 #define RGB_BUILTIN LED_BUILTIN
