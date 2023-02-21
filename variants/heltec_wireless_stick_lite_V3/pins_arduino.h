@@ -13,4 +13,7 @@
 
 // All Pins are defined in the Application e.g devices.h
 
+//Some Arduino Drivers need Pins Defined here
+static const uint8_t SS    = 10;
+
 #endif /* Pins_Arduino_h */
