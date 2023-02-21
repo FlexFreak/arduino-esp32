@@ -15,5 +15,8 @@
 
 //Some Arduino Drivers need Pins Defined here
 static const uint8_t SS    = 10;
+static const uint8_t MOSI  = 11;
+static const uint8_t MISO  = 13;
+static const uint8_t SCK   = 12;
 
 #endif /* Pins_Arduino_h */
