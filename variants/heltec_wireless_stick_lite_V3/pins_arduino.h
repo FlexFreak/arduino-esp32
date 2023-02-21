@@ -14,9 +14,12 @@
 // All Pins are defined in the Application e.g devices.h
 
 //Some Arduino Drivers need Pins Defined here
-static const uint8_t SS    = 10;
-static const uint8_t MOSI  = 11;
-static const uint8_t MISO  = 13;
-static const uint8_t SCK   = 12;
+static const uint8_t SS    = 0;
+static const uint8_t MOSI  = 0;
+static const uint8_t MISO  = 0;
+static const uint8_t SCK   = 0;
+
+static const uint8_t SDA = 16;
+static const uint8_t SCL = 15;
 
 #endif /* Pins_Arduino_h */
